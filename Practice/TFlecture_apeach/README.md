@@ -17,6 +17,7 @@
 3) 여러분이 Backend에 연결시켜야 하는 부분은 크게 2부분입니다.
 
 >**Create(게시글을 만드는 부분) : 54번째 줄 ~ 62번째 줄**
+
 **Read(게시글을 보여주는 부분) : 85번째 줄 ~ 100번째 줄**
 
 Update와 Destroy하는 곳은 직접 frontend를 입력하면서 customizing해보세요!
@@ -37,7 +38,8 @@ Update와 Destroy하는 곳은 직접 frontend를 입력하면서 customizing해
 
 3) 여러분이 Backend에 연결시켜야 하는 부분은 크게 2부분입니다.
 >**Create(게시글을 만드는 부분) : 54번째 줄 ~ 65번째 줄**
-**Read(게시글을 보여주는 부분) : 98번째 줄 ~ 113번째 줄**
+
+>**Read(게시글을 보여주는 부분) : 98번째 줄 ~ 113번째 줄**
 
 Update와 Destroy하는 곳은 직접 frontend를 입력하면서 customizing해보세요!
 
