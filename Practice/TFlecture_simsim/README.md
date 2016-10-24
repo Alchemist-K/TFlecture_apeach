@@ -1,24 +1,34 @@
-# README
+# 오늘의 실습 ( 어피치북 or 피치터 만들기 / 심심이 만들기 )
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+오늘 배운 모든 내용들을 토대로, 여러분은 이제 페이스북과 트위터같은 게시판이나 심심이 사이트를 만들 수 있습니다.
+모르는 것이 있다면 구글과 주변 사람, 보조 강사들에게 언제든지 물어보세요!
 
-Things you may want to cover:
+* Mission 2. 심심이 만들기
+여러분은 이제부터, 세계가 놀란 인공지능 가상친구인 심심이를 만들 수 있습니다.
+심심이에게 다양한 말을 가르치면서 시리(Siri)도 놀랄만한 실력으로 키워주세요!
+(Hint : 처음에는, 모델구조를 잘 설립하고 모델이 어떻게 구성될지를 그려보는것이 좋을것입니다! 참고로, 서로 다른 모델 2개를 사용하는 것이 편할 수도 있습니다.)
 
-* Ruby version
+1-1. 심심이에게 말을 걸고, 심심이와 대화해보자!
+1) views/simsim/index.html.erb에 심심이와 대화하기 위한 프론트엔드가 준비되어있습니다.
+2) 한 번 rails s로 실행시켜보면서, 어떤 구성요소가 어떻게 표현되었는지 관찰해보세요
+  (페이스북 템플릿을 변형한 형태이기 때문에, 최선을 다해 만들었지만 완벽한 프론트엔드는 아닙니다ㅠㅠ 마음에 드는 스타일로 바꾸어보세요!).
+** rails s로 실행시킬 때, 주의할 점이 하나 있습니다!! **
+이 Github파일은 어피치북 & 피치터 / 심심이가 모두 포함된 파일입니다.
+따라서 심심이를 실행시키고 싶다면, Practice -> TFlecture_simsim 폴더로 오셔서 rails s를 실행시켜주셔야 합니다!
+혹시 잘 모르겠다면 언제든 보조강사들을 불러주세요!
 
-* System dependencies
+3) 여러분이 Backend에 연결시켜야 하는 부분은 크게 2부분입니다.
+Create(게시글을 만드는 부분 = 심심이에게 말을 거는 부분) : 42번째 줄 ~ 58번째 줄
+Read(게시글을 보여주는 부분 = 심심이와 대화하는 내용이 보이는 부분) : 11번째 줄 ~ 36번째 줄
+Update와 Destroy하는 곳은 직접 frontend를 입력하면서 customizing해보세요!
 
-* Configuration
+4) 다른 frontend부분은 건드리시지 않으셔도 무방하나, 마음에 안드실 경우 assets/stylesheets/simsim.scss파일로 오셔서 마음껏 바꾸어보세요!
 
-* Database creation
+-------------------------------------------------------------------------------------------------------------------------
 
-* Database initialization
+1-2. 심심이가 모르는 말을 가르쳐주자!
+1) views/simsim/learn.html.erb에 당신이 게시판을 만들기 위한 프론트엔드가 준비되어있습니다.
+2) 여러분이 Backend에 연결시켜야 하는 부분은 1부분입니다.
+Create(게시글을 만드는 부분) : 15번째 줄 ~ 29번째 줄
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4) 다른 frontend부분은 건드리시지 않으셔도 무방하나, 마음에 안드실 경우 assets/stylesheets/simsim.scss파일로 오셔서 마음껏 바꾸어보세요!
